@@ -1,4 +1,6 @@
 #! /usr/bin/env python3
+
+#This is a change!
 """
 
 --- besspin.py is the main BESSPIN-Tool-Suite program. All documentation and features are based on 
@@ -98,7 +100,7 @@ def main (xArgs):
 
     # setup the logging
     logLevel = logging.DEBUG if (xArgs.debug) else logging.INFO 
-    logging.basicConfig(filename=logFile,filemode='w',format='%(asctime)s: (%(levelname)s)~  %(message)s',datefmt='%I:%M:%S %p',level=logLevel)
+    logging.basicConfig(filename=logFile,filemode='w',format='%(asctime)s: (%(levelname)s)~  %(message)s', datefmt='%I:%M:%S %p',level=logLevel)
     printAndLog(f"Welcome to BESSPIN!")
 
     #Prepare the peaceful exit

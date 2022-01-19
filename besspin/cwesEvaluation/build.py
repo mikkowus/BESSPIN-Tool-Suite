@@ -62,6 +62,7 @@ def buildCwesEvaluation():
 
     if isEqSetting('osImage', 'FreeRTOS'):
         # create the osImages directory
+        #Doit!
         osImagesDir = os.path.join(getSetting('workDir'),'osImages')
         mkdir(osImagesDir,addToSettings='osImagesDir')
         # TODO: Might need do do something special for SRI-Cambridge (see
